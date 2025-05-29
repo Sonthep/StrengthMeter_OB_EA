@@ -1,0 +1,663 @@
+# 🚀 Strength Meter + Order Block EA v2.0 - Settings Template
+# Advanced Edition with SMC, Multi-TF Analysis & Liquidity Features
+
+========================================
+📋 QUICK START PRESETS
+========================================
+
+🛡️ CONSERVATIVE (Recommended for Beginners)
+========================================
+RiskPercent = 0.5
+RiskReward = 2.0
+StopLossPips = 20
+MaxTradesPerPair = 1
+AutoTradingInput = false
+
+# Strength Settings
+MinStrengthDiff = 7.0
+StrengthPeriod = 20
+UseCorrelationFilter = true
+UseMomentumFilter = true
+StrengthSmoothPeriod = 5
+
+# Order Block v2.0
+UseMultiTimeframe = true
+UseOBStrengthScore = true
+UseInstitutionalOB = true
+UseFairValueGap = true
+UseBreakerBlocks = true
+OB_LookbackBars = 50
+BOS_LookbackBars = 20
+OB_MinSize = 15.0
+OB_MinStrengthScore = 80.0
+
+# Liquidity Analysis
+UseEqualHighsLows = true
+UseLiquidityPools = true
+UseStopHuntDetection = true
+UseSweepConfirmation = true
+UseVolumeProfile = false
+LiquidityLookback = 100
+
+# Smart Money Concepts
+UseSMC = true
+UseMarketStructure = true
+UseInducement = true
+UseDisplacement = true
+UseMitigationBlocks = true
+SMC_LookbackBars = 200
+
+# Dashboard
+ShowHeatMap = true
+ShowCorrelationMatrix = true
+ShowLiquidityLevels = true
+DashboardX = 20
+DashboardY = 50
+
+⚖️ MODERATE (Balanced Performance)
+========================================
+RiskPercent = 1.0
+RiskReward = 2.0
+StopLossPips = 15
+MaxTradesPerPair = 2
+AutoTradingInput = true
+
+# Strength Settings
+MinStrengthDiff = 5.0
+StrengthPeriod = 14
+UseCorrelationFilter = true
+UseMomentumFilter = true
+StrengthSmoothPeriod = 3
+
+# Order Block v2.0
+UseMultiTimeframe = true
+UseOBStrengthScore = true
+UseInstitutionalOB = true
+UseFairValueGap = true
+UseBreakerBlocks = true
+OB_LookbackBars = 50
+BOS_LookbackBars = 20
+OB_MinSize = 10.0
+OB_MinStrengthScore = 70.0
+
+# Liquidity Analysis
+UseEqualHighsLows = true
+UseLiquidityPools = true
+UseStopHuntDetection = true
+UseSweepConfirmation = true
+UseVolumeProfile = true
+LiquidityLookback = 100
+
+# Smart Money Concepts
+UseSMC = true
+UseMarketStructure = true
+UseInducement = true
+UseDisplacement = true
+UseMitigationBlocks = true
+SMC_LookbackBars = 200
+
+# Dashboard
+ShowHeatMap = true
+ShowCorrelationMatrix = true
+ShowLiquidityLevels = true
+DashboardX = 20
+DashboardY = 50
+
+🔥 AGGRESSIVE (High Performance)
+========================================
+RiskPercent = 2.0
+RiskReward = 1.5
+StopLossPips = 10
+MaxTradesPerPair = 3
+AutoTradingInput = true
+
+# Strength Settings
+MinStrengthDiff = 4.0
+StrengthPeriod = 10
+UseCorrelationFilter = true
+UseMomentumFilter = true
+StrengthSmoothPeriod = 2
+
+# Order Block v2.0
+UseMultiTimeframe = true
+UseOBStrengthScore = true
+UseInstitutionalOB = true
+UseFairValueGap = true
+UseBreakerBlocks = true
+OB_LookbackBars = 70
+BOS_LookbackBars = 25
+OB_MinSize = 8.0
+OB_MinStrengthScore = 60.0
+
+# Liquidity Analysis
+UseEqualHighsLows = true
+UseLiquidityPools = true
+UseStopHuntDetection = true
+UseSweepConfirmation = true
+UseVolumeProfile = true
+LiquidityLookback = 150
+
+# Smart Money Concepts
+UseSMC = true
+UseMarketStructure = true
+UseInducement = true
+UseDisplacement = true
+UseMitigationBlocks = true
+SMC_LookbackBars = 250
+
+# Dashboard
+ShowHeatMap = true
+ShowCorrelationMatrix = true
+ShowLiquidityLevels = true
+DashboardX = 20
+DashboardY = 50
+
+⚡ SCALPING (High Frequency)
+========================================
+RiskPercent = 0.5
+RiskReward = 1.0
+StopLossPips = 8
+MaxTradesPerPair = 5
+AutoTradingInput = true
+
+# Strength Settings
+MinStrengthDiff = 3.0
+StrengthPeriod = 8
+UseCorrelationFilter = false
+UseMomentumFilter = true
+StrengthSmoothPeriod = 1
+
+# Order Block v2.0
+UseMultiTimeframe = true
+UseOBStrengthScore = true
+UseInstitutionalOB = false
+UseFairValueGap = true
+UseBreakerBlocks = true
+OB_LookbackBars = 30
+BOS_LookbackBars = 10
+OB_MinSize = 5.0
+OB_MinStrengthScore = 50.0
+
+# Liquidity Analysis
+UseEqualHighsLows = true
+UseLiquidityPools = true
+UseStopHuntDetection = true
+UseSweepConfirmation = true
+UseVolumeProfile = false
+LiquidityLookback = 50
+
+# Smart Money Concepts
+UseSMC = true
+UseMarketStructure = true
+UseInducement = false
+UseDisplacement = true
+UseMitigationBlocks = false
+SMC_LookbackBars = 100
+
+# Dashboard
+ShowHeatMap = true
+ShowCorrelationMatrix = false
+ShowLiquidityLevels = true
+DashboardX = 20
+DashboardY = 50
+
+🏦 INSTITUTIONAL (Professional)
+========================================
+RiskPercent = 1.5
+RiskReward = 3.0
+StopLossPips = 25
+MaxTradesPerPair = 1
+AutoTradingInput = true
+
+# Strength Settings
+MinStrengthDiff = 8.0
+StrengthPeriod = 30
+UseCorrelationFilter = true
+UseMomentumFilter = true
+StrengthSmoothPeriod = 5
+
+# Order Block v2.0
+UseMultiTimeframe = true
+UseOBStrengthScore = true
+UseInstitutionalOB = true
+UseFairValueGap = true
+UseBreakerBlocks = true
+OB_LookbackBars = 100
+BOS_LookbackBars = 40
+OB_MinSize = 20.0
+OB_MinStrengthScore = 85.0
+
+# Liquidity Analysis
+UseEqualHighsLows = true
+UseLiquidityPools = true
+UseStopHuntDetection = true
+UseSweepConfirmation = true
+UseVolumeProfile = true
+LiquidityLookback = 200
+
+# Smart Money Concepts
+UseSMC = true
+UseMarketStructure = true
+UseInducement = true
+UseDisplacement = true
+UseMitigationBlocks = true
+SMC_LookbackBars = 300
+
+# Dashboard
+ShowHeatMap = true
+ShowCorrelationMatrix = true
+ShowLiquidityLevels = true
+DashboardX = 20
+DashboardY = 50
+
+========================================
+🎯 SYMBOL-SPECIFIC OPTIMIZATIONS
+========================================
+
+💰 XAUUSD (Gold) Settings
+========================================
+RiskPercent = 0.8
+RiskReward = 2.5
+StopLossPips = 30
+MaxTradesPerPair = 1
+MinStrengthDiff = 6.0
+OB_MinStrengthScore = 75.0
+OB_MinSize = 25.0
+UseInstitutionalOB = true
+UseFairValueGap = true
+
+💶 EURUSD Settings
+========================================
+RiskPercent = 1.0
+RiskReward = 2.0
+StopLossPips = 15
+MaxTradesPerPair = 2
+MinStrengthDiff = 5.0
+OB_MinStrengthScore = 70.0
+OB_MinSize = 10.0
+UseCorrelationFilter = true
+
+💷 GBPUSD Settings
+========================================
+RiskPercent = 1.0
+RiskReward = 2.0
+StopLossPips = 18
+MaxTradesPerPair = 2
+MinStrengthDiff = 5.5
+OB_MinStrengthScore = 72.0
+OB_MinSize = 12.0
+UseVolatilityFilter = true
+
+💴 USDJPY Settings
+========================================
+RiskPercent = 0.8
+RiskReward = 1.8
+StopLossPips = 12
+MaxTradesPerPair = 2
+MinStrengthDiff = 4.5
+OB_MinStrengthScore = 68.0
+OB_MinSize = 8.0
+UseMomentumFilter = true
+
+💷💴 GBPJPY Settings
+========================================
+RiskPercent = 0.6
+RiskReward = 2.5
+StopLossPips = 25
+MaxTradesPerPair = 1
+MinStrengthDiff = 6.5
+OB_MinStrengthScore = 78.0
+OB_MinSize = 18.0
+UseDisplacement = true
+
+💶💴 EURJPY Settings
+========================================
+RiskPercent = 0.8
+RiskReward = 2.2
+StopLossPips = 20
+MaxTradesPerPair = 1
+MinStrengthDiff = 6.0
+OB_MinStrengthScore = 75.0
+OB_MinSize = 15.0
+UseInducement = true
+
+📈 NAS100 Settings
+========================================
+RiskPercent = 0.5
+RiskReward = 2.0
+StopLossPips = 100  # Points
+MaxTradesPerPair = 1
+MinStrengthDiff = 7.0
+OB_MinStrengthScore = 80.0
+OB_MinSize = 50.0  # Points
+UseVolumeProfile = true
+
+📊 US30 Settings
+========================================
+RiskPercent = 0.5
+RiskReward = 2.5
+StopLossPips = 150  # Points
+MaxTradesPerPair = 1
+MinStrengthDiff = 8.0
+OB_MinStrengthScore = 85.0
+OB_MinSize = 80.0  # Points
+UseInstitutionalOB = true
+
+========================================
+🕐 SESSION-BASED CONFIGURATIONS
+========================================
+
+🌅 ASIAN SESSION (00:00-09:00 GMT)
+========================================
+# Lower volatility, tighter ranges
+RiskPercent = 0.8
+StopLossPips = 12
+MinStrengthDiff = 6.0
+OB_MinStrengthScore = 75.0
+MaxTradesPerPair = 1
+UseEqualHighsLows = true
+UseLiquidityPools = true
+
+# Best for JPY pairs
+Focus_Symbols = USDJPY, EURJPY, GBPJPY, AUDJPY
+
+🌍 LONDON SESSION (08:00-17:00 GMT)
+========================================
+# High volatility, strong trends
+RiskPercent = 1.2
+StopLossPips = 15
+MinStrengthDiff = 5.0
+OB_MinStrengthScore = 70.0
+MaxTradesPerPair = 2
+UseDisplacement = true
+UseMarketStructure = true
+
+# Best for EUR, GBP pairs
+Focus_Symbols = EURUSD, GBPUSD, EURGBP, EURJPY, GBPJPY
+
+🗽 NEW YORK SESSION (13:00-22:00 GMT)
+========================================
+# High volume, institutional activity
+RiskPercent = 1.0
+StopLossPips = 18
+MinStrengthDiff = 4.5
+OB_MinStrengthScore = 65.0
+MaxTradesPerPair = 3
+UseInstitutionalOB = true
+UseVolumeProfile = true
+
+# Best for USD pairs and indices
+Focus_Symbols = EURUSD, GBPUSD, USDJPY, XAUUSD, NAS100, US30
+
+🌃 OVERLAP SESSIONS (13:00-17:00 GMT)
+========================================
+# Maximum volatility and opportunities
+RiskPercent = 1.5
+StopLossPips = 20
+MinStrengthDiff = 4.0
+OB_MinStrengthScore = 60.0
+MaxTradesPerPair = 3
+UseAllFeatures = true
+
+========================================
+📊 ADVANCED FEATURE CONFIGURATIONS
+========================================
+
+🎯 OB STRENGTH SCORING WEIGHTS
+========================================
+# Customize scoring algorithm
+CandleSize_Weight = 25      # 0-25 points
+Volume_Weight = 20          # 0-20 points
+TouchCount_Weight = 15      # 0-15 points
+Institutional_Weight = 15   # 0-15 points
+FVG_Weight = 10            # 0-10 points
+Breaker_Weight = 10        # 0-10 points
+TimeFactor_Weight = 5      # 0-5 points
+
+🧠 SMC DETECTION PARAMETERS
+========================================
+# Break of Structure
+BOS_MinBreakSize = 5.0     # Minimum break size in pips
+BOS_ConfirmationBars = 2   # Bars to confirm BOS
+
+# Displacement
+Displacement_MinSize = 15.0     # Minimum displacement in pips
+Displacement_BodyRatio = 0.7    # Body to range ratio
+Displacement_VolumeMultiplier = 1.5  # Volume above average
+
+# Inducement
+Inducement_ProximityPips = 10.0  # Distance to recent high/low
+Inducement_TestBars = 5          # Bars to test level
+
+💧 LIQUIDITY ANALYSIS SETTINGS
+========================================
+# Equal Highs/Lows
+EqualHL_Tolerance = 5.0         # Pip tolerance
+EqualHL_MinTouches = 2          # Minimum touches
+EqualHL_LookbackBars = 50       # Bars to scan
+
+# Stop Hunt Detection
+StopHunt_BreakDuration = 3      # Max bars for fake break
+StopHunt_VolumeSpike = 1.5      # Volume multiplier
+StopHunt_ReturnRequirement = true  # Must return to range
+
+# Liquidity Sweep
+Sweep_ConfirmationBars = 2      # Bars to confirm sweep
+Sweep_MinBreakSize = 3.0        # Minimum break in pips
+Sweep_ReversalSize = 5.0        # Minimum reversal size
+
+🔗 CORRELATION ANALYSIS
+========================================
+# Correlation Matrix
+Correlation_Period = 20         # Calculation period
+Correlation_Threshold = 0.7     # Strong correlation level
+Correlation_UpdateFreq = 10     # Update every N ticks
+
+# Divergence Detection
+Divergence_MinStrengthDiff = 3.0  # Minimum strength difference
+Divergence_PriceDiff = 0.5        # Price movement threshold
+Divergence_ConfirmationBars = 3   # Confirmation period
+
+========================================
+🎨 DASHBOARD CUSTOMIZATION
+========================================
+
+🌈 COLOR THEMES
+========================================
+
+# Dark Theme (Default)
+PanelColor = clrDarkSlateGray
+TextColor = clrWhite
+BorderColor = clrSilver
+StrongColor = clrLime
+WeakColor = clrRed
+
+# Light Theme
+PanelColor = clrWhiteSmoke
+TextColor = clrBlack
+BorderColor = clrDarkGray
+StrongColor = clrGreen
+WeakColor = clrCrimson
+
+# Blue Theme
+PanelColor = clrNavy
+TextColor = clrCyan
+BorderColor = clrSteelBlue
+StrongColor = clrAqua
+WeakColor = clrOrange
+
+# Professional Theme
+PanelColor = clrDimGray
+TextColor = clrGold
+BorderColor = clrSilver
+StrongColor = clrLimeGreen
+WeakColor = clrTomato
+
+📐 LAYOUT OPTIONS
+========================================
+
+# Compact Layout (Small screens)
+DashboardX = 10
+DashboardY = 30
+DashboardWidth = 300
+DashboardHeight = 400
+FontSize = 7
+
+# Standard Layout (Default)
+DashboardX = 20
+DashboardY = 50
+DashboardWidth = 400
+DashboardHeight = 600
+FontSize = 8
+
+# Extended Layout (Large screens)
+DashboardX = 30
+DashboardY = 70
+DashboardWidth = 500
+DashboardHeight = 800
+FontSize = 9
+
+# Minimal Layout (Trading focus)
+ShowHeatMap = true
+ShowCorrelationMatrix = false
+ShowLiquidityLevels = true
+ShowSMCPanel = true
+ShowAnalytics = false
+
+========================================
+⚙️ PERFORMANCE OPTIMIZATION
+========================================
+
+🚀 HIGH PERFORMANCE MODE
+========================================
+# Reduce calculations for speed
+StrengthSmoothPeriod = 1
+UseCorrelationFilter = false
+UseVolumeProfile = false
+LiquidityLookback = 50
+SMC_LookbackBars = 100
+UpdateFrequency = 5  # Update every 5 ticks
+
+🔋 BATTERY SAVER MODE
+========================================
+# For VPS or limited resources
+UseMultiTimeframe = false
+UseVolumeProfile = false
+ShowCorrelationMatrix = false
+UpdateFrequency = 10
+ReducedCalculations = true
+
+🎯 ACCURACY MODE
+========================================
+# Maximum precision, slower execution
+StrengthSmoothPeriod = 5
+UseAllFilters = true
+LiquidityLookback = 200
+SMC_LookbackBars = 300
+UpdateFrequency = 1  # Every tick
+
+========================================
+🔧 TROUBLESHOOTING CONFIGURATIONS
+========================================
+
+🚨 NO SIGNALS ISSUE
+========================================
+# Reduce thresholds
+MinStrengthDiff = 3.0
+OB_MinStrengthScore = 50.0
+OB_MinSize = 5.0
+MaxTradesPerPair = 5
+
+# Enable all features
+UseMultiTimeframe = true
+UseOBStrengthScore = true
+UseSMC = true
+UseLiquidityPools = true
+
+📊 TOO MANY SIGNALS
+========================================
+# Increase thresholds
+MinStrengthDiff = 7.0
+OB_MinStrengthScore = 80.0
+OB_MinSize = 15.0
+MaxTradesPerPair = 1
+
+# Add more filters
+UseInstitutionalOB = true
+UseCorrelationFilter = true
+UseSweepConfirmation = true
+
+💸 HIGH DRAWDOWN
+========================================
+# Reduce risk
+RiskPercent = 0.5
+MaxTradesPerPair = 1
+StopLossPips = 20
+
+# Increase quality filters
+MinStrengthDiff = 6.0
+OB_MinStrengthScore = 75.0
+UseInstitutionalOB = true
+
+🐌 SLOW PERFORMANCE
+========================================
+# Optimize calculations
+UseMultiTimeframe = false
+UseVolumeProfile = false
+LiquidityLookback = 50
+SMC_LookbackBars = 100
+ShowCorrelationMatrix = false
+
+========================================
+📝 NOTES & RECOMMENDATIONS
+========================================
+
+⚠️ IMPORTANT REMINDERS:
+- Always test on DEMO account first
+- Start with CONSERVATIVE settings
+- Monitor performance for 1 week minimum
+- Adjust parameters based on market conditions
+- Never risk more than 2% per trade
+- Keep detailed trading logs
+
+🎯 OPTIMIZATION TIPS:
+- Use symbol-specific settings for best results
+- Adjust for different trading sessions
+- Monitor correlation changes
+- Review SMC patterns regularly
+- Update settings monthly
+
+📊 BACKTESTING RECOMMENDATIONS:
+- Test minimum 6 months of data
+- Use 90%+ modeling quality
+- Set realistic spreads
+- Test multiple market conditions
+- Optimize key parameters only
+
+🔄 REGULAR MAINTENANCE:
+- Weekly performance review
+- Monthly parameter optimization
+- Quarterly strategy assessment
+- Annual major updates
+
+========================================
+📞 SUPPORT INFORMATION
+========================================
+
+📖 Documentation: README_v2.md
+⚙️ Settings: This file
+📊 Logs: MT5 Experts tab
+🔧 Troubleshooting: See sections above
+
+Last Updated: December 2024
+Version: 2.0.0 Advanced Edition
+
+========================================
+🏆 CONCLUSION
+========================================
+
+This template provides comprehensive configuration options for the Strength Meter + Order Block EA v2.0. Choose the preset that matches your trading style and risk tolerance, then fine-tune based on your specific needs and market conditions.
+
+Remember: Successful trading requires proper risk management, continuous learning, and adaptation to changing market conditions.
+
+Happy Trading! 🚀📈 

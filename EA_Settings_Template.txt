@@ -187,3 +187,17 @@ Recommended Broker Features:
 
 Test these symbols before going live:
 EURUSD, GBPUSD, USDJPY, XAUUSD, NAS100, US30 
+
+✨ ใหม่:
+- Multi-timeframe OB scanning (M1, M5, M15, H1)
+- OB Strength scoring (0-100 points)
+- Institutional OB patterns (3-touch rule)
+- Fair Value Gap (FVG) integration
+- Breaker blocks detection
+- OB invalidation tracking
+- Equal highs/lows detection
+- Liquidity pools mapping
+- Stop hunt identification
+- Sweep confirmation patterns
+- Volume profile analysis
+- Smart money concepts (SMC) 
